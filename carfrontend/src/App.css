@@ -1,0 +1,40 @@
+:root{
+  --primary-color: #181b3a;
+  --secondary-color:#01d293;
+  --body-bg: #0b0c28;
+  --card-01-bg:linear-grdient(#ef621c, #e1424e);
+  --card-02-bg:linear-grdient(#01d293, #56c57a);
+  --card-03-bg:#725cff;
+  --card-04-bg:#2884ff;
+  --heading-color:#fff;
+  --small-text-color:#808191;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--body-bg);
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+.main__layout{
+   margin-left: 260px;
+}
+
+img {
+  width: 100%;
+}
+
